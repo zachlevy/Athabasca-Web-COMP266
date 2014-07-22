@@ -1,0 +1,50 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1114" measuredH="725" mockupW="1058" mockupH="703">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="56" y="22" w="1058" h="703" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//awesomesite.com/home</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::MenuBar" x="136" y="149" w="878" h="29" measuredW="429" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Home%2C%20Categories%20of%20Rome%2C%20Timeline%2C%20Media%2C%20Tools%2C%20About</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="144" y="106" w="153" h="36" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="136" y="193" w="878" h="506" measuredW="200" measuredH="212" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Miltary%0ACulture%0APolitics%0AEconomics%0ALeaders</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="1092" y="97" w="-1" h="602" measuredW="16" measuredH="100" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::SubTitle" x="217" y="208" w="-1" h="-1" measuredW="98" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Header%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Paragraph" x="230" y="241" w="760" h="135" measuredW="200" measuredH="80" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>The%20original%20settlement%20developed%20into%20the%20capital%20of%20the%20Roman%20Kingdom%20%28ruled%20by%20a%20succession%20of%20seven%20kings%2C%20according%20to%20tradition%29%2Cand%20then%20the%20Roman%20Republic%20%28from%20510%20BC%2C%20governed%20by%20the%20Senate%29%2C%20and%20%5Bfinally%20the%20Roman%20Empire%5D%20%28from%2027%20BC%2C%20ruled%20by%20an%20Emperor%29.%20This%20success%20depended%20on%20military%20conquest%2C%20commercial%20predominance%2C%20as%20well%20as%20selective%20assimilation%20of%20neighbouring%20civilizations%2C%20most%20%5Bnotably%20the%20Italics%5D%2C%20Etruscans%20and%20Greeks.%20From%20its%20foundation%20Rome%2C%20although%20losing%20occasional%20battles%2C%20had%20been%20undefeated%20in%20war%20until%20386%20BC%2C%20when%20it%20was%20briefly%20occupied%20by%20the%20Gauls.%5B23%5D%20According%20to%20the%20legend%2C%20the%20Gauls%20offered%20to%20deliver%20Rome%20back%20to%20its%20people%20for%20a%20thousand%20pounds%20of%20gold%2C%20but%20the%20Romans%20refused%2C%20preferring%20to%20take%20back%20their%20city%20by%20force%20of%20arms%20rather%20than%20ever%20admitting%20defeat%2C%20after%20which%20the%20Romans%20recovered%20the%20city%20in%20the%20same%20year.%5B24%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::SubTitle" x="217" y="531" w="-1" h="-1" measuredW="104" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Header%202</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Paragraph" x="230" y="564" w="760" h="135" measuredW="200" measuredH="80" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>The%20original%20settlement%20developed%20into%20the%20capital%20of%20the%20Roman%20Kingdom%20%28ruled%20by%20a%20succession%20of%20seven%20kings%2C%20according%20to%20tradition%29%2Cand%20then%20the%20Roman%20Republic%20%28from%20510%20BC%2C%20governed%20by%20the%20Senate%29%2C%20and%20%5Bfinally%20the%20Roman%20Empire%5D%20%28from%2027%20BC%2C%20ruled%20by%20an%20Emperor%29.%20This%20success%20depended%20on%20military%20conquest%2C%20commercial%20predominance%2C%20as%20well%20as%20selective%20assimilation%20of%20neighbouring%20civilizations%2C%20most%20%5Bnotably%20the%20Italics%5D%2C%20Etruscans%20and%20Greeks.%20From%20its%20foundation%20Rome%2C%20although%20losing%20occasional%20battles%2C%20had%20been%20undefeated%20in%20war%20until%20386%20BC%2C%20when%20it%20was%20briefly%20occupied%20by%20the%20Gauls.%5B23%5D%20According%20to%20the%20legend%2C%20the%20Gauls%20offered%20to%20deliver%20Rome%20back%20to%20its%20people%20for%20a%20thousand%20pounds%20of%20gold%2C%20but%20the%20Romans%20refused%2C%20preferring%20to%20take%20back%20their%20city%20by%20force%20of%20arms%20rather%20than%20ever%20admitting%20defeat%2C%20after%20which%20the%20Romans%20recovered%20the%20city%20in%20the%20same%20year.%5B24%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Image" x="434" y="379" w="282" h="135" measuredW="77" measuredH="79" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Image%20or%20Video</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
