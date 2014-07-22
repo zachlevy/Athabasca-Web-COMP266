@@ -1,0 +1,24 @@
+x theme and purpose
+	purpose, background, and motivations
+	two or three paragraphs
+x 3 user profiles
+	Name
+	Photo
+	Demographics (age, gender, cultural group)
+	Knowledge and skills (particularly as they relate to the site or its contents)
+	Why are they going to the site?
+	Approach to using the site (are they butterflies or crawlers? do they like structure or do they like to dive in? are they casual visitors or likely to keep coming back?, etc.)
+x 6 things the users are looking for
+x List further requirements: other considerations and concerns such as legal, social, organizational, and contextual constraints.
+x Do up a mockup (or wireframe)
+	what it could look like
+x Site structure (site map)
+	10 to 20 pages
+	major headings, menu items
+
+x Reflective learning diary
+
+x submit docs online
+x submit reflection
+
+*Submit the work to your tutor for comment by directing him or her to your blog entry on the Landing using the 'Design documentation review' link on this Moodle site.
