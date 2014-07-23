@@ -1,0 +1,144 @@
+/* START BASE */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300);
+body {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1024px;
+	background: #333;
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, p, a {
+	color: #fff;
+	text-decoration: none;
+}
+a:hover,
+a:visited,
+a:active {
+	text-decoration: none;
+}
+a:hover {
+	color: #90061a;
+}
+h1 {
+	font-size: 2.5em;
+	font-weight: lighter;
+	margin: 0.2em;
+}
+h2, h3 {
+	font-weight: normal;
+	font-size: 1.5em;
+	margin-top: 0.2em;
+}
+.center {
+	text-align: center;
+}
+.row {
+	clear: both;
+	width: 100%;
+	height: auto;
+	margin-bottom: 1em;
+	overflow: auto;
+}
+.third {
+	width: 30%;
+	padding: 0.5em;
+	float: left;
+}
+.half {
+	width: 45%;
+	padding: 0.5em;
+	float: left;
+}
+header {
+	background: url(../images/header-bg.png);
+	clear: both;
+}
+section {
+	padding: 0 1em;
+	clear: both;
+	overflow: auto;
+}
+footer {
+	background: #000;
+	color: #fff;
+	font-weight: lighter;
+	clear: both;
+	margin-top: 2em;
+	padding: 0.5em;
+}
+label {
+	margin-top: 1em;
+	display: block;
+	color: #fff;
+}
+input,
+textarea {
+	display: block;
+	width: 200px;
+}
+.submit {
+	margin-top: 2em;
+	width: 100px;
+}
+.button {
+	padding: 0.5em;
+	margin: 0 0.5em;
+	background: #90061a;
+}
+.button:hover {
+	color: #ccc;
+}
+/* END BASE */
+/* START NAV */
+#brand {
+	margin: 1em;
+}
+#main-menu {
+	background-color: #000;
+}
+#main-menu ul {
+	margin-top: 0;
+}
+#main-menu ul li {
+	display: inline-block;
+	padding: 0.5em;
+}
+#main-menu a {
+	text-decoration: none;
+	padding: 0.5em;
+}
+#main-menu a.active {
+	background: #90061a;
+}
+#main-menu a:hover {
+	color: #fff;
+	background: #90061a;
+}
+/* END NAV */
+/* START TOOLS PAGE */
+.tools #converter {
+
+}
+.tools #currency {
+	margin-top: 2em;
+}
+.tools #inputs {
+
+}
+.tools #amount {
+	margin-top: 2em;
+}
+.tools #results {
+	text-align: right;
+}
+.tools #convert {
+	margin-top: 2em;
+}
+.tools .convert-wrap {
+	padding: 0.5em;
+}
+/* END TOOLS PAGE */
+/* START CATEGORIES */
+
+
+/* END CATEGORIES */
