@@ -2,21 +2,22 @@
 <html>
 <head>
 <title>Roman History | History</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header>
 		<a href="index.html">
-			<img src="images/logo.png" alt="brand logo" />
+			<img id="brand" src="images/logo.png" alt="brand logo" />
 		</a>
 	</header>
-	<nav><!-- start nav bar -->
+	<nav id="main-menu"><!-- start nav bar -->
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="categories.html">Categories of Rome</a></li>
 			<li><a href="timeline.html">Timeline</a></li>
 			<li><a href="media.html">Media</a></li>
 			<li><a href="tools.html">Tools</a></li>
-			<li><a href="about.html">About</a></li>
+			<li><a class="active" href="about.html">About</a></li>
 		</ul>
 	</nav><!-- end nav bar -->
 	<section>
@@ -26,14 +27,14 @@
 		<p>Zach is a business student at Dalhousie University. He is learning how to make websites from Athabasca.</p>
 		<h2>Contact</h2>
 		<form id="contact" method="post" action=""><!-- start contact form -->
-			<fieldset> 
+			<fieldset>
 				<label for="name">Name</label>
 				<input type="text" name="name">
 				<label for="email">Email</label>
 				<input type="email" name="email">
 				<label for="message">Message</label>
 				<textarea name"message">Type your message here...</textarea>
-				<input type="submit" name="submit" />
+				<input class="submit" type="submit" name="submit" />
 			</fieldset> 
 		</form><!-- end contact form -->
 	</section>

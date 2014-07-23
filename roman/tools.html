@@ -2,44 +2,50 @@
 <html>
 <head>
 <title>Roman History | Tools</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="tools">
 	<header>
 		<a href="index.html">
-			<img src="images/logo.png" alt="brand logo" />
+			<img id="brand" src="images/logo.png" alt="brand logo" />
 		</a>
 	</header>
-	<nav><!-- start nav bar -->
+	<nav id="main-menu"><!-- start nav bar -->
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="categories.html">Categories of Rome</a></li>
 			<li><a href="timeline.html">Timeline</a></li>
 			<li><a href="media.html">Media</a></li>
-			<li><a href="tools.html">Tools</a></li>
+			<li><a class="active" href="tools.html">Tools</a></li>
 			<li><a href="about.html">About</a></li>
 		</ul>
 	</nav><!-- end nav bar -->
 	<section>
 		<h1>Currency Converter</h1>
-		<div>
-			<div>
-				<select>
-					<option value="cad">CAD</option>
-					<option value="danari">Denarii</option>
-				</select>
-				<input type="number" name="quantity" min="1" max="5">
+		<div id="converter" class="half">
+			<div class="row">
+				<div id="inputs" class="half">
+					<label for="quantity">Amount</label>
+					<input id="amount" type="number" name="quantity" min="1" max="5">
+					<select id="currency">
+						<option value="cad">CAD</option>
+						<option value="danari">Denarii</option>
+					</select>
+				</div>
+				<div id="results" class="half">
+					<p>Denarii</p>
+					<p>Result</p>
+				</div>
 			</div>
-			<div>
-				<p>Denarii</p>
-				<p>Result</p>
-			</div>
-			<div>
-				<a class="button">Convert</a>
+			<div class="row">
+				<div class="center convert-wrap">
+					<a href="#" id="convert" class="button">Convert</a>
+				</div>
 			</div>
 		</div>
-		<div>
-			<img src="images/danarii1.png" alt="roman coins denarii" />
-			<img src="images/denarii2.png" alt="roman coins denarii" />
+		<div class="half">
+			<img class="half" src="images/danarii1.png" alt="roman coins denarii" />
+			<img class="half" src="images/denarii2.png" alt="roman coins denarii" />
 		</div>
 	</section>
 	<footer>
