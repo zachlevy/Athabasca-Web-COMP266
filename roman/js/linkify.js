@@ -18,7 +18,7 @@ window.onload=function(){
 	            var node = nodes[i];
 	            // if the class doesn't already roll
 	            if( !node.className || !node.className.match( /roll/g ) ) {
-	            	// roll
+	            	// dynamically add roll class to selector elements
 	                node.className += ' roll';
 	                /*
 	                uncomment next line to roll all elements that match selector, otherwise you'll have to wrap text with
