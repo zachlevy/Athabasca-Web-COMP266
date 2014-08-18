@@ -158,6 +158,93 @@ textarea {
 .tools .convert-wrap {
 	padding: 0.5em;
 }
+	/* START GLADIATOR GAME */
+	#gladiator-game {
+
+	}
+	#gladiator-img-wrap {
+		position: relative;
+		margin: 0 auto;
+		width: 500px;
+		clear: both;
+		padding-top: 2em;
+	}
+	#gladiator-img {
+
+	}
+	#battle-result {
+		position: absolute;
+		top: 45%;
+		width: 100%;
+		text-align: center;
+	}
+	#battle-result h1 {
+		font-weight: bold;
+	}
+	#action-buttons-wrap {
+		margin-left: 230px;
+		margin-top: 3em;
+		margin-bottom: 2em;
+	}
+	.action-button-wrap {
+		list-style: none;
+		text-align: center;
+		display: inline;
+	}
+	#action-buttons-wrap .action.button {
+		padding:2em;
+		cursor: pointer;
+	}
+	#gladiator-health-wrap {
+		margin-bottom: 2em;
+	}
+	.health-bar-wrap {
+		width: 48%;
+		float:left;
+	}
+	.health-bar {
+		width: 100%;
+		background: green;
+		height: 20px;
+		border: 1px solid white;
+	}
+	#player-health {
+		float: right;
+	}
+	#player-health-wrap {
+		margin-right: 2%;
+	}
+	#player-health-text {
+		text-align: right;
+	}
+	#enemy-health {
+
+	}
+	#start-game-wrap {
+		min-height: 500px;
+	}
+	#start-game {
+		padding: 2em;
+		margin: 0 auto;
+		width: 150px;
+		text-align: center;
+		display: block;
+		margin-top: 200px;
+		cursor: pointer;
+	}
+	.subtle-text {
+		opacity: 0.7;
+	}
+	#blood-overlay {
+		background-color: rgba(138,7,7,0.7);
+		height: 300px;
+		width: 100%;
+		position: absolute;
+		display: none;
+		top: 2em;
+		left: 0;
+	}
+	/* END GLADIATOR GAME */
 /* END TOOLS PAGE */
 /* START CATEGORIES */
 .categories #sidebar-left {

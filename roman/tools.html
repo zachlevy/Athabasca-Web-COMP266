@@ -4,6 +4,7 @@
 <title>Roman History | Tools</title>
 <link rel="stylesheet" href="css/style.css">
 <script src="js/linkify.js"></script>
+<script src="js/gladiators.js"></script>
 </head>
 <body class="tools">
 	<header>
@@ -21,6 +22,48 @@
 			<li><a href="about.html">About</a></li>
 		</ul>
 	</nav><!-- end nav bar -->
+	<section>
+		<h1>Gladiator Game</h1>
+		<div id="start-game-wrap">
+			<a id="start-game" class="button"><h2>Start Game</h2><p class="subtle-text">(Be ready)</p></a>
+		</div>
+		<div id="gladiator-game">
+			<div class="gladiator-health-wrap">
+				<div id="player-health-wrap" class="health-bar-wrap">
+					<h2 id="player-health-text">You</h2>
+					<div id="player-health" class="health-bar">
+
+					</div>
+				</div>
+				<div id="player-health-wrap" class="health-bar-wrap">
+					<h2>Enemy</h2>
+					<div id="enemy-health" class="health-bar">
+
+					</div>
+				</div>
+			</div>
+			<div id="gladiator-img-wrap">
+				<div id="blood-overlay">
+				</div>
+				<div id="battle-result">
+					<h1 id="battle-result-text"></h1>
+				</div>
+				<img id="gladiator-img" src="http://placehold.it/500x300">
+			</div>
+			<ul id="action-buttons-wrap">
+				<li class="action-button-wrap">
+					<a id="button-0" class="action button">button1</a>
+				</li>
+				<li class="action-button-wrap">
+					<a id="button-1" class="action button">button1</a>
+				</li>
+				<li class="action-button-wrap">
+					<a id="button-2" class="action button">button1</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!--
 	<section>
 		<h1>Currency Converter</h1>
 		<div id="converter" class="half">
@@ -49,6 +92,7 @@
 			<img class="half" src="images/denarii2.png" alt="roman coins denarii" />
 		</div>
 	</section>
+	-->
 	<footer>
 		<span>Created by Zachary Levy on <em>February 7, 2014</em></span>
 	</footer>
