@@ -11,9 +11,9 @@ function startBattle () {
 			"attack" : "stab",
 			"block" : "shield",
 			"counterWorks" : true,
-			"counter" : "parry",
+			"counter" : "stab",
 			"mistake" : "swing low",
-			"image" : "http://placehold.it/500x300&text=Stab"
+			"image" : "images/stab.png"
 		},
 		{
 			"attack" : "highswing",
@@ -21,15 +21,15 @@ function startBattle () {
 			"counterWorks" : false,
 			"counter" : "sidestep",
 			"mistake" : "duck",
-			"image" : "http://placehold.it/500x300&text=High%20Swing"
+			"image" : "images/highswing.png"
 		},
 		{
-			"attack" : "sweep legs",
-			"block" : "jump back",
+			"attack" : "swing",
+			"block" : "swing",
 			"counterWorks" : false,
-			"counter" : "jump up",
+			"counter" : "jump back",
 			"mistake" : "duck",
-			"image" : "http://placehold.it/500x300&text=Sweep%20Legs"
+			"image" : "images/swing.png"
 		},
 		{
 			"attack" : "thrust",
@@ -37,7 +37,7 @@ function startBattle () {
 			"counterWorks" : true,
 			"counter" : "parry",
 			"mistake" : "sidestep",
-			"image" : "http://placehold.it/500x300&text=Thrust"
+			"image" : "images/thrust.png"
 		}
 	];
 
