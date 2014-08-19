@@ -2,10 +2,11 @@
 author: zachary levy
 date: 20140818
 */
-// on window load
+
+// sets the vars and holds the battle timer
 function startBattle () {
-	var attackType;
-	var defenceType;
+	// battle pairs 
+	// holds different moves, and their counters in an array
 	var battlePairs = [
 		{
 			"attack" : "stab",
@@ -41,11 +42,16 @@ function startBattle () {
 		}
 	];
 
+	// initialize vars
+	var attackType;
+	var defenceType;
+
 	// set the button as vars
 	var buttonOne = document.getElementById("button-0");
 	var buttonTwo = document.getElementById("button-1");
 	var buttonThree = document.getElementById("button-2");
 
+	// set health bars as vars
 	var enemyHealthBar = document.getElementById("enemy-health");
 	var playerHealthBar = document.getElementById("player-health");
 
@@ -55,7 +61,7 @@ function startBattle () {
 	// blood
 	var blood = document.getElementById("blood-overlay");
 
-	// add all the vars for the battle
+	// add all the general vars for the battle
 	var gameVars = {
 		"enemyHealth" : 100,
 		"playerHealth" : 100,
@@ -70,28 +76,34 @@ function startBattle () {
 		"status" : status,
 		"blood" : blood,
 	};
-	// 
-	var reactionTimer;
 
 	// enemy makes a move before the wait interval starts
 	battle(gameVars, battlePairs);
 	// enemy makes a new move every 3 seconds
 	var gameTime = window.setInterval(function(){
 		if (!gameVars.battleOver) {
+			// if that battle is not over
+			// reset the status text
 			gameVars.status.innerHTML = "";
+			// have the player battle
 			battle(gameVars, battlePairs);
 		} else {
+			// show the blood overlay
 			gameVars.blood.style.display = "block";
 		}
 	}, 3000);
 }
 
+// main battle function
+// takes in the general game vars
+// takes in battle pairs object
 function battle (gameVars, battlePairs) {
+	// whether the player has already moved
 	var playerMoved = false;
-	// get a random battle pair
+	// get a random battle pair index
 	var randomElement = Math.floor(Math.random()*Object.keys(battlePairs).length);
+	// get a random battle pair
 	var battlePair = battlePairs[randomElement];
-
 	// randomize the buttons
 	var shuffledButtons = shuffle(gameVars.responseButtons);
 	// set the random buttons to block, counter, and mistake
@@ -121,11 +133,13 @@ function battle (gameVars, battlePairs) {
 			playerMoved = true;
 		}
 	};
-	// udpate the image with the attack
+	// update the image to the chosen battle pair
 	var gladiatorImage = document.getElementById("gladiator-img");
 	gladiatorImage.src = battlePair.image;
+	// remove the blood overlay
 	gameVars.blood.style.display = "none";
 
+	// wait 2.5 seconds for the player to make a move, otherwise they lose health
 	setTimeout(function (){
 		if (!playerMoved) {
 			gameVars.status.innerHTML = "Fight Me!";
@@ -134,36 +148,39 @@ function battle (gameVars, battlePairs) {
 	}, 2500);
 }
 
-// change the healthbar
+// change the health of the player or enemy
+// update the health bar CSS
 function decreaseHealth (gameVars, player) {
 	if (player) {
+		// if its the player
 		gameVars.playerHealth -= 20;
 		gameVars.blood.style.display = "block";
 	} else {
+		// if its the enemy
 		gameVars.enemyHealth -= 20;
 	}
+	// update the health bar CSS
 	gameVars.enemyHealthBar.style.width = gameVars.enemyHealth + "%";
 	gameVars.playerHealthBar.style.width = gameVars.playerHealth + "%";
-	console.log("playerHealth: " + gameVars.playerHealth);
-	console.log("enemyHealth: " + gameVars.enemyHealth);
+	// if the player or enemy is beaten
 	if (gameVars.playerHealth <= 0) {
 		gameVars.status.innerHTML = "Enemy Wins";
-		console.log("Enemy wins");
 		gameVars.battleOver = true;
 	} else if (gameVars.enemyHealth <= 0) {
 		gameVars.status.innerHTML = "Player Wins";
-		console.log("Player wins");
 		gameVars.battleOver = true;
 	}
 }
 
 // once the button is clicked
+// determine if the button pressed blocks, counters, or dodges the attack in the battle pair
 function determineResult (gameVars, battlePair, playerMove) {
 	switch (playerMove) {
 		case battlePair.block:
 			gameVars.status.innerHTML = "Coward!";
 			break;
 		case battlePair.counter:
+			// only if the counter works, does the enemy lose health
 			if (battlePair.counterWorks) {
 				console.log("countered");
 				gameVars.status.innerHTML = "AHHhhh";
@@ -183,13 +200,16 @@ function determineResult (gameVars, battlePair, playerMove) {
 // on window load
 window.onload=function(){
 	// set the out-of-game vars
+	// vars for the start screen
 	var startButton = document.getElementById("start-game");
 	var startButtonWrap = document.getElementById("start-game-wrap");
 	var gladiatorGame = document.getElementById("gladiator-game");
 	gladiatorGame.style.display = "none";
+	// when start button is clicked
 	startButton.onclick = function () {
 		startButtonWrap.style.display = "none";
 		gladiatorGame.style.display = "block";
+		// start the main battle function
 		startBattle();
 	};
 };
