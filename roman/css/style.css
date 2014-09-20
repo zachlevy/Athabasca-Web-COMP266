@@ -373,3 +373,12 @@ td {
 	margin-right: 1em;
 }
 /* END COPY SOURCE */
+/* START INSTAGRAM GALLERY */
+#instagram-gallery img {
+	max-width: 100%;
+}
+/* END INSTAGRAM GALLERY */
+pre {
+	background: #efefef;
+	padding: 1em;
+}
