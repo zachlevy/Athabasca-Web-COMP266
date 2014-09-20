@@ -7,16 +7,18 @@ body {
 	background: #333;
 	font-family: 'Open Sans', sans-serif;
 }
-h1, h2, h3, h4, p, a {
+h1, h2, h3, h4, p, a, .clip_button {
 	color: #fff;
 	text-decoration: none;
 }
 a:hover,
 a:visited,
-a:active {
+a:active,
+.clip_button.zeroclipboard-is-active {
 	text-decoration: none;
 }
-a:hover {
+a:hover,
+.clip_button.zeroclipboard-is-hover {
 	color: #90061a;
 }
 h1 {
@@ -90,7 +92,7 @@ textarea {
 	width: 100px;
 }
 .button {
-	padding: 0.5em;
+	padding: 0.3em;
 	margin: 0 0.5em;
 	background: #90061a;
 }
@@ -363,3 +365,11 @@ td {
        -moz-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
 }
 /* END ROLLING PERSPECTIVE */
+/* START COPY SOURCE */
+.link-wrap {
+	display: inline;
+}
+.link-wrap a {
+	margin-right: 1em;
+}
+/* END COPY SOURCE */
