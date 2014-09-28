@@ -1,0 +1,55 @@
+comp266_strategy_20140201.txt
+
+Do a good job. Do it quick. Take 3 weeks.
+
+
+Submit a reflection at teh end of each unit:
+Explicitly map your activities to the course learning outcomes
+Explicitly identify work that demonstrates your competence
+	Suggested leading questions
+		What aspects of these tasks were most difficult for you, and why?
+		If you had to do the tasks again, what would you do differently, and why?
+		How did your previous experience help and/or hinder you in completing the tasks?
+		What was the most surprising thing that you learned?
+		What was the most useful thing that you learned?
+		What did you learn about yourself as a result of completing these tasks?
+
+Located on "course group on the Landing (see “Using Athabasca Landing” under Getting Started)"
+
+SETUP
+*landing 		https://landing.athabascau.ca/groups/profile/40166/comp-266/tab/199653/default
+*web space		http://scis.athabascau.ca/virtualhelpdesk/topics/connecting/
+
+
+PROCESS
+
+Submit unit work in .zip
+Suggest grade
+Do learing diary relfection (landing)
+Get feedback (within 8 days)
+Submit next unit
+
+
+RESOURCES
+
+Moodle course site (myAthabasca)
+COMP 266 Group on the Athabasca Landing
+SCIS web space 
+FAQ - https://landing.athabascau.ca/pages/view/110057/course-process
+
+
+
+FINAL SUBMISSION OF WORK
+
+We would like you to submit four things in a single archive file (zip format preferred, or gz or tgz acceptable), which together  will constitute your portfolio of evidence:
+
+- a full copy of your website, including all of its folders. For ease of navigation, we would prefer you to create this in a separate folder within the archive file.
+- a single PDF file containing all of your learning diary entries.
+- a consolidated mapping document, providing a mapping between the evidence you have supplied and the learning outcomes of the course. This document should also contain hyperlinks pointing to the original sources of the evidence you have supplied and/or details of how the tutor may access these online. The template is available in the "Mapping Your Learning Activities to Outcomes" section of this unit.
+(optional) if relevant and not already covered in your learning journal, a single PDF file containing other supporting evidence—for example, copied and pasted discussion posts, shared bookmarks, and comments on other people’s blogs.
+- You will upload the single archive file to the Portfolio link link on the Moodle course home page.
+
+
+
+
+
